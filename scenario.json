@@ -1,0 +1,12 @@
+{
+  "constructorArgs": [],
+  "calls": [
+    {"method":"enroll","args":["Acacia dealbata"]},
+    {"method":"enroll","args":["Racosperma dealbatum"],"error":"Accepted taxon already enrolled"},
+    {"method":"review","args":[2979474]}
+  ],
+  "views": [
+    {"method":"concept","args":[2979474],"expected":{"submitted_name":"Acacia dealbata","accepted_key":2979474,"status":"ACTIVE"}},
+    {"method":"concept","args":[2981029],"expected":null}
+  ]
+}
